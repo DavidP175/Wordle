@@ -1,0 +1,23 @@
+.guessGrid{
+    grid-template-columns: 5;
+    gap: 2;
+}
+.letter{
+    border: 2px solid rgb(100, 99, 99);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    
+}
+.guessLetter{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+}
