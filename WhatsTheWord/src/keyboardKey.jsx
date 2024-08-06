@@ -8,8 +8,8 @@ export const correct_state = "correct";
 
 
 
-export const  KeyboardKey = ({state ,children})=>{
-    return <button className="keyboard-key" data-state={state}>{children}</button>
+export const  KeyboardKey = ({state ,children,onClick})=>{
+    return <button onClick = {onClick} className="keyboard-key" data-state={state}>{children}</button>
 }
 
 export default KeyboardKey;

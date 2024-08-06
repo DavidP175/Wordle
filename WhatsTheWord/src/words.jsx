@@ -1,4 +1,5 @@
-[
+
+ const words = [ 
 "aback",
 "abaft",
 "abase",
@@ -3102,4 +3103,11 @@
 "youth",
 "zebra",
 "zones"
-]
+];
+export const getWords = () => {
+    
+    return words;
+};
+
+
+export default getWords;

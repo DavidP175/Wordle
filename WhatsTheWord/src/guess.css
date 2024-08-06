@@ -1,4 +1,4 @@
-.guessGrid{
+.guessRow{
     grid-template-columns: 5;
     gap: 2;
 }
@@ -15,6 +15,7 @@
 }
 .guessLetter{
     font-size: 40px;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     border: 0;
