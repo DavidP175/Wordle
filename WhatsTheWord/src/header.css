@@ -8,9 +8,14 @@
 }
 h1{
     margin: 0;
-    
+    user-select: none;
+    caret-color: transparent;
+    color: rgb(192, 192, 192);
+    font-size: 40px;
 }
 hr{
-    width: 75vw
+    width: 75vw;
+    user-select: none;
+    caret-color: transparent;
 }
 

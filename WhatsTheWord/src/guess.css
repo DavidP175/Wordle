@@ -5,8 +5,8 @@
 .letter{
     border: 2px solid rgb(100, 99, 99);
     display: inline-block;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin: 2px;
     text-align: center;
     vertical-align: middle;
@@ -14,11 +14,26 @@
     
 }
 .guessLetter{
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     border: 0;
     text-align: center;
     vertical-align: middle;
+    cursor: default;
+    caret-color: transparent;
+    user-select: none;
+}
+.letter[data-state="pending"]{
+    background-color: rgb(68, 64, 64);
+}
+.letter[data-state="incorrect"]{
+    background-color: rgb(150, 150, 150);
+}
+.letter[data-state="correct"]{
+    background-color: #86bf5e;
+}
+.letter[data-state="partially"]{
+    background-color: #f2b84b;
 }

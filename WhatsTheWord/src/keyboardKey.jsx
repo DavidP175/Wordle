@@ -7,8 +7,7 @@ export const partially_state = "partially";
 export const correct_state = "correct";
 
 
-
-export const  KeyboardKey = ({state ,children,onClick})=>{
+export const  KeyboardKey = ({state ,children,onClick,})=>{
     return <button onClick = {onClick} className="keyboard-key" data-state={state}>{children}</button>
 }
 

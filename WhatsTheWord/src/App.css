@@ -3,8 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  
+  user-select: none;
+    caret-color: transparent;
 }
+
 
 .logo {
   height: 6em;
@@ -41,4 +43,30 @@
 .read-the-docs {
   color: #888;
 }
+#wordReveal {
+  position: absolute;
+  left: 50%;  /* Move the left edge to the middle */
+  transform: translate(-50%, -50%); /* Offset by half the div's width and height */
+  background-color: aliceblue;
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+  text-align: center;
+  border-radius: 15px;
+  font-size: 30px;
+  caret-color: transparent;
+  user-select: none;
+}
 
+#reset{
+  margin: 20px;
+  border-color: #888;
+  background-color: transparent;
+  border-style: double;
+  width: 80px;
+  height: 30px;
+  color: rgb(169, 169, 169);
+}
